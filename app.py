@@ -1,6 +1,5 @@
 #General Flask Imports
 from flask import Flask, render_template, request, session
-import _version
 #For MySQL Database connection
 import mysql.connector as mysql
 
@@ -317,4 +316,4 @@ def profilePage():
 
 #Running the code
 if __name__ == "__main__":
-    app.run(debug=False,host='0.0.0.0')
+    app.run(debug=True)
