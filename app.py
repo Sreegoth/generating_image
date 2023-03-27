@@ -1,6 +1,6 @@
 #General Flask Imports
 from flask import Flask, render_template, request, session
-
+import _version
 #For MySQL Database connection
 import mysql.connector as mysql
 
